@@ -3,24 +3,199 @@
     margin: 0px;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+   }
+
+    /* Universal id */
+    h2 {
+        text-align: center;
+        margin-bottom: 25px;
+        margin-top: 15px;
+        font-size: 34px;
+        color: gray;
+    }
+    h3{
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+    #desc {
+        font-family: Helvetica;
+        font-size: 18px;
+        margin-top: 5px;
+    }
+
+    li {
+        padding-bottom: 20px;
+    }
+
+
+    #landingPage {
+        padding: 0px;
+        position: relative;
+        background-color: black;
+        text-align: center;
+    }
+
+    #navBar {
+        z-index: 1000;
+        position: fixed;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #navBar ul {
+        display: flex;
+        width:auto;
+        list-style: none;
+        align-items: center;
+        padding: 10px 0;        
+    }
     
+    #navBar ul li {
+        font-size: 16px;
+        font-weight: bold;
+
+        margin-right: 18px;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    #navBar a {
+        text-decoration: none;
+        color: purple;
+    }
+
+    #home {
+        margin-top: 0px;
+        /* height: 100vh; */
+        
+        
+    }
+
+    #landingPage img  {
+        width: 100%;
+        height: 100vh;   
+        opacity: 35%;
+        
+    }
+
+    #selar1{
+        position: absolute;
+        bottom: 28px;
+        right: 20px;
+
+    }
+
+    button{
+        border-radius: 50px;
+        padding: 10px 40px;
+        background-color: purple;
+    }
+
+    button a {
+        text-decoration: none;
+        color: white
+    }
+    button:hover {
+        background-color: blueviolet;
+        cursor: pointer;
+    }
+
+    span {
+        color: grey;
+    }
+    #lpText {
+        color: white;  
+        font-family: "poppins", sans-serif ;
+        font-weight: bold;
+        font: 100;
+        font-style: normal;
+        font-size: 95px;
+        margin: 10px;
+        width: 75px;
+        position: absolute;
+        
+        
+    }
+    
+
+
+    #divBenefit {
+        margin: 0 200px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #divGallery {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    #divBenefit img {
+        width: 350px;
+        height: 350px;
+    }
+
+    #salesCopy{
+        margin: 0 200px;
+    }
+
+    #salesCopy p{
+        padding-top: 16px;
+    }
+    
+
+
+#divCurriculum {
+    margin: 0 200px;
     
 }
 
-#divBenefit {
-  display: flex;
-  flex-direction: column;
-  margin: 0 200px;
+
+#divCurriculum h3 {
+    color: red;
+    font-weight: bold;
+    font-size: 34px;
 }
 
-#divGallery {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
+#descBonus {
+    font-family: Helvetica;
+    font-size: 16px;
+    margin: 5px 24px;
+    font-style: normal;
 }
-#divBenefit img {
+
+/* Benefit */
+
+
+
+/* Tutor */
+
+#divRequirements {
+    margin: 0 200px;
+    position: relative;
+}
+
+#tutorImage {
+    
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     width: 100%;
-    height: 100%;
+    height: auto;
+}
+
+#pRequirements{
+    margin: 0 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+#idContact {
+    margin:0 200px;
 }
 
 
@@ -39,15 +214,13 @@
 
     #desc {
         font-family: Helvetica;
-        font-size: 18px;
+        font-size: 16px;
         margin-top: 5px;
     }
 
     li {
         padding-bottom: 20px;
     }
-
-
     
     /* Navigation Bar */
 #landingPage {
@@ -99,7 +272,7 @@
     #landingPage img  {
         width: 100%;
         height: auto;
-        margin-bottom: 25px;
+        
         opacity: 35%;
         
     }
@@ -135,7 +308,7 @@
         font-weight: bold;
         font: 100;
         font-style: normal;
-        font-size: large;
+        font-size: 34px;
         margin: 10px;
         width: 64px;
         position: absolute;
@@ -144,6 +317,14 @@
     }
     
     /* Curriculum */
+
+    #salesCopy{
+        margin: 0 30px;
+    }
+
+    #salesCopy p{
+        padding-top: 16px;
+    }
     
     #divCurriculum {
         margin: 0 30px;
@@ -151,10 +332,10 @@
     }
 
     
-    #bonus {
-        color: #973131;
+    #divCurriculum h3 {
+        color: red;
         font-weight: bold;
-        font-size: 30px;
+        font-size: 28px;
     }
 
     #descBonus {
